@@ -263,13 +263,13 @@ h2 {
 #picWrap {
   float: right;
   border-style: solid;
-  width: 18%;
-  height: 46vh;
-  margin-top: 6%;
-  margin-right: 9%;
+  width: 375px;
+  height: 375px;
+  margin-top: 8%;
+  margin-right: 6%;
   border-radius: 50%;
-  border-color: #bcd5d1;
-  border-width: 3px;
+  border-color: #edd9c0;
+
 }
 
 #aboutWrap {

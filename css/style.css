@@ -1,0 +1,277 @@
+#mainName {
+  position: absolute;
+  width: 30%;
+  top: 28%;
+  left: 14%;
+  font-family: Nunito, sans-erif;
+  font-size: 2.5vw;
+  color: black;
+  text-align: center;
+  text-size-adjust: 100%;
+  height: 70px;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  opacity: 0;
+  animation: fadeIn 600ms ease-in 750ms forwards;
+}
+
+body {
+  width: auto;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+#c7 {
+  margin-left: 35px;
+}
+
+#bgContainer {
+  height: 100vh;
+  overflow: hidden;
+  border-style: none;
+}
+
+#mainName span {
+  opacity: 0;
+  display: inline-block;
+  animation: move 0.4s ease-in, fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-5px) scale(2, 2);
+  }
+  100% {}
+}
+
+#scrollDown {
+  text-align: center;
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 90%;
+  left: 49%;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 50%;
+  padding-top: 9px;
+  box-sizing: border-box;
+}
+
+#navBar {
+  display: none;
+  text-align: center;
+  background-color: white;
+  height: 60px;
+  border-bottom-style: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 1;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+  overflow: hidden;
+  margin-right: 10%;
+}
+
+li {
+  display: inline-block;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navButton {
+  font-family: Raleway, san-serif;
+  color: black;
+  font-size: 16px;
+  position: relative;
+  display: block;
+}
+
+.navButton:before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 45%;
+  margin-top: -0.5px;
+  left: -5%;
+  background: #000;
+}
+
+.navButton:hover:before {
+  background: #000;
+  width: 110%;
+  transition: width 0.25s ease-in;
+}
+
+.navButton:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 45%;
+  margin-top: -0.5px;
+  background: #000;
+  right: -5%;
+  transition: width 0.25s ease-out;
+}
+
+.navButton:hover:after {
+  background: transparent;
+  width: 110%;
+  transition: 0s;
+}
+
+#myName {
+  font-family: Jura, helvetica;
+  font-size: 25px;
+  height: 60px;
+  padding-top: 9px;
+  color: #303030;
+  float: left;
+  margin-left: 10%;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+#wrap {}
+
+.pageContainer {
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Raleway, helvetica;
+  font-weight: 700;
+  color: #231F20;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7a8080;
+}
+
+p {
+  text-align: left;
+  font-size: 3.2vh;
+  font-family: Montserrat, helvetica;
+  color: white;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  text-indent: 5%;
+}
+
+#about {
+  background-color: #edd9c0;
+}
+
+#projects {
+  background-color: #c0dfd9;
+}
+
+#contact {
+  background-color: #b3c2bf;
+}
+
+#textBox {
+  background-color: #3b3a36;
+  position: absolute;
+  height: auto;
+  left: 0;
+  width: 65%;
+  height: 50%;
+  margin-top: 5%;
+}
+
+#contactBox {
+  background-color: #3fb0ac;
+  width: auto;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-top: 7%;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  font-family: Montserrat, helvetica;
+  margin-bottom: 45px;
+}
+
+#picWrap {
+  float: right;
+  border-style: solid;
+  width: 18%;
+  height: 46vh;
+  margin-top: 6%;
+  margin-right: 9%;
+  border-radius: 50%;
+  border-color: #bcd5d1;
+  border-width: 3px;
+}
+
+#aboutWrap {
+  overflow: auto;
+}

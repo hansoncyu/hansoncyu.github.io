@@ -269,9 +269,44 @@ h2 {
   margin-right: 6%;
   border-radius: 50%;
   border-color: #edd9c0;
-
 }
 
 #aboutWrap {
   overflow: auto;
+}
+
+#climateProjectWrap {
+  margin-top: 50px;
+}
+
+#climatePicWrap {
+  width: 38%;
+  height: 12%;
+  float: left;
+  margin-left: 10%;
+}
+
+#climatePic {
+  object-fit: cover;
+  width: 100%;
+}
+
+#climateTextWrap {
+  width: 35%;
+  height: 10%;
+  float: right;
+  margin-right: 10%;
+}
+
+#climateText {
+  color: #231F20;
+}
+
+#codepenWrap p {
+  padding-top: 75px;
+  color: #231F20;
+}
+
+#codepenWrap a {
+  color: #cc00cc;
 }

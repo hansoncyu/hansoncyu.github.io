@@ -190,6 +190,10 @@ body {
   box-sizing: border-box;
 }
 
+.projectsContainer {
+  height: auto !important;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
@@ -277,6 +281,7 @@ h2 {
 
 #climateProjectWrap {
   margin-top: 50px;
+  float: none;
 }
 
 #climatePicWrap {
@@ -299,6 +304,36 @@ h2 {
 }
 
 #climateText {
+  color: #231F20;
+}
+
+#fitjournalProjectWrap {
+  margin-top: 50px;
+  clear: both;
+}
+
+#fitjournalPicWrap {
+  width: 38%;
+  height: 12%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+#fitjournalPic {
+  object-fit: cover;
+  width: 100%;
+}
+
+#fitjournalTextWrap {
+  width: 35%;
+  height: 10%;
+  float: right;
+  margin-right: 10%;
+  padding-top: 30px;
+}
+
+#fitjournalText {
   color: #231F20;
 }
 

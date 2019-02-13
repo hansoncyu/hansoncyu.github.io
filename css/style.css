@@ -190,10 +190,6 @@ body {
   box-sizing: border-box;
 }
 
-.projectsContainer {
-  height: auto !important;
-}
-
 h1 {
   text-align: center;
   font-size: 50px;
@@ -215,7 +211,7 @@ a {
 
 p {
   text-align: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: Montserrat, helvetica;
   color: white;
   float: left;
